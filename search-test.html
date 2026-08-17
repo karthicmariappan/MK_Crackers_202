@@ -1,0 +1,6 @@
+<!doctype html><html><body>
+<h2>MK Crackers Product Data Test</h2><div id="status">Loading...</div>
+<script src="products.js"></script><script>
+const n=Array.isArray(window.PRODUCTS)?window.PRODUCTS.length:0;
+document.getElementById('status').textContent=n?('SUCCESS: '+n+' products loaded.'): 'ERROR: products.js did not load.';
+</script></body></html>

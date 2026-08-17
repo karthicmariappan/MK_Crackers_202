@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MK Crackers | Gift Box Collection</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.gift-page{padding:45px 0 90px;background:linear-gradient(180deg,#fffaf7,#fff);min-height:calc(100vh - 110px)}
+.back{display:inline-block;margin-bottom:18px;color:#9d1118;font-weight:900}
+.gift-title{text-align:center;margin-bottom:28px}.gift-title .eyebrow{color:#b5121b;font-size:11px;font-weight:1000;letter-spacing:2px}.gift-title h1{font-size:38px;margin:8px 0}.gift-title p{color:#756b71;margin:0}
+.gift-boxes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
+.box{background:#fff;border:1px solid #eadedf;border-radius:18px;padding:15px;box-shadow:0 8px 25px #0000000b;transition:.2s;overflow:hidden}
+.box:hover{transform:translateY(-6px);border-color:#d6a323;box-shadow:0 15px 35px #8d171722}
+.box-art{height:155px;border-radius:13px;background:linear-gradient(135deg,#fff0bd,#fffaf0);display:grid;place-items:center;font-size:75px}
+.box small{display:block;color:#9c710e;font-weight:900;letter-spacing:1.4px;margin-top:13px}.box h2{font-size:20px;margin:6px 0}.box p{color:#746a70;font-size:12px;min-height:30px}.box-price{font-size:23px;color:#b5121b;font-weight:1000;margin:10px 0}.box button{width:100%;padding:12px;border:0;border-radius:8px;background:#b5121b;color:#fff;font-weight:1000;cursor:pointer}.box button:hover{background:#82080e}
+.list-view{display:none;margin-top:35px}.list-view.show{display:block}.list-head{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:16px}.list-head h2{margin:5px 0;color:#7c0c13}.list-head p{color:#756b71}.box-crackers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.cracker{background:#fff;border:1px solid #eadfe0;border-radius:12px;padding:14px;display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}.cracker h3{font-size:14px;margin:0}.cracker p{font-size:11px;color:#81777d;margin:4px 0}.cracker strong{color:#b5121b}.cracker button{grid-column:1/-1;border:0;border-radius:7px;background:#b5121b;color:#fff;padding:9px;font-weight:900;cursor:pointer}
+.selection-bar{position:sticky;bottom:12px;margin-top:22px;background:#231719;color:#fff;padding:12px 16px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 10px 30px #0005}.selection-bar a{background:#f5b400;color:#1d1300;padding:9px 14px;border-radius:7px;font-weight:1000}
+@media(max-width:1050px){.gift-boxes{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){.gift-boxes,.box-crackers{grid-template-columns:1fr}.list-head{align-items:flex-start;flex-direction:column}.gift-title h1{font-size:30px}}
+</style>
+</head>
+<body>
+<div class="top-strip"><div class="container strip-inner"><b>🎆 MK CRACKERS</b><span>🎁 Gift Box Special Offer</span><a href="tel:+919629605422">📞 +91 96296 05422</a></div></div>
+<header class="site-header"><div class="container header-inner">
+<a class="logo" href="index.html"><div class="logo-mark">MK</div><div><strong>MK CRACKERS</strong><small>Celebrate • Share • Smile</small></div></a>
+<nav><a href="index.html">Price List</a><a href="gift-boxes.html">Gift Boxes</a><a href="index.html#cart">🛒 Cart <b id="navCount">0</b></a></nav><button class="menu" id="menuBtn">☰</button>
+</div></header>
+
+<section class="gift-page"><div class="container">
+<a class="back" href="index.html">← Back to MK Crackers</a>
+<div class="gift-title"><div class="eyebrow">🎁 SPECIAL GIFT BOX COLLECTION</div><h1>Choose Your Gift Box</h1><p>Select one of our five special gift boxes and add it directly to your enquiry cart.</p></div>
+<div id="giftBoxes" class="gift-boxes"></div>
+
+<div id="listView" class="list-view">
+<div class="list-head"><div><span id="selectedLabel" class="badge"></span><h2 id="selectedTitle"></h2><p>Browse the crackers in this selection and add anything you want.</p></div><button id="backBoxes" type="button">← Gift Boxes</button></div>
+<div id="boxCrackers" class="box-crackers"></div>
+<div class="selection-bar"><span><b id="selectedCount">0</b> selected • ₹<b id="selectedTotal">0.00</b></span><a href="index.html#cart">Go to Enquiry Cart →</a></div>
+</div>
+</div></section>
+
+<script src="products.js"></script>
+<script>
+const BOXES=[
+ {id:"yuvi",name:"Yuvi",items:21,price:350},
+ {id:"rohit",name:"Rohit",items:30,price:550},
+ {id:"sachin",name:"Sachin",items:35,price:600},
+ {id:"kohli",name:"Kohli",items:40,price:730},
+ {id:"dhoni",name:"Dhoni",items:51,price:1100}
+];
+const products=Array.isArray(window.PRODUCTS)?window.PRODUCTS:[];
+let cart=JSON.parse(localStorage.getItem("mkCart")||"[]");
+const $=s=>document.querySelector(s);
+const money=n=>Number(n||0).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+function save(){localStorage.setItem("mkCart",JSON.stringify(cart))}
+function updateNav(){let n=cart.reduce((a,x)=>a+(Number(x.qty)||0),0);$("#navCount").textContent=n}
+function addGift(box){const id="gift-"+box.id;let x=cart.find(i=>i.id===id);if(x)x.qty++;else cart.push({id,name:box.name+" Gift Box ("+box.items+" Items)",content:box.items+" items gift box",price:box.price,qty:1});save();updateNav();alert(box.name+" Gift Box added to your enquiry cart.");}
+function addProduct(p){let x=cart.find(i=>String(i.id)===String(p.id));if(x)x.qty++;else cart.push({id:p.id,name:p.name,content:p.content||"",price:Number(p.price)||0,qty:1});save();updateNav()}
+function showBox(id){
+ const b=BOXES.find(x=>x.id===id); if(!b)return;
+ $("#listView").classList.add("show");$("#selectedLabel").textContent=b.items+" ITEMS • ₹"+b.price;$("#selectedTitle").textContent=b.name+" Gift Box";
+ // Show a useful selection from the complete product list. If exact 21/30/etc pack contents are supplied later, they can replace this mapping.
+ const list=products.slice(0,Math.min(b.items,products.length));
+ $("#boxCrackers").innerHTML=list.map(p=>`<div class="cracker"><div><h3>${esc(p.name)}</h3><p>${esc(p.content||"Pack")} • ₹${money(p.price)}</p></div><strong>₹${money(p.price)}</strong><button type="button" data-add="${p.id}">Add to Cart</button></div>`).join("");
+ window.scrollTo({top:$("#listView").offsetTop-20,behavior:"smooth"});
+}
+function render(){
+ $("#giftBoxes").innerHTML=BOXES.map(b=>`<article class="box">
+   <div class="box-art">🎁</div><small>${b.items} ITEMS</small><h2>${b.name} Gift Box</h2>
+   <p>Special celebration gift box with ${b.items} items.</p><div class="box-price">₹${money(b.price)}</div>
+   <button type="button" data-open="${b.id}">Add Gift Box to Cart →</button>
+ </article>`).join("");
+ updateNav();
+}
+$("#giftBoxes").addEventListener("click",e=>{const id=e.target.dataset.open;if(id){const b=BOXES.find(x=>x.id===id);addGift(b)}});
+$("#boxCrackers").addEventListener("click",e=>{const id=e.target.dataset.add;if(id){const p=products.find(x=>String(x.id)===String(id));if(p)addProduct(p)}});
+$("#backBoxes").onclick=()=>$("#listView").classList.remove("show");
+$("#menuBtn").onclick=()=>document.querySelector("nav").classList.toggle("show");
+render();
+const hash=(location.hash||"").replace("#","");
+if(hash&&BOXES.some(b=>b.id===hash))setTimeout(()=>showBox(hash),150);
+</script>
+</body></html>
