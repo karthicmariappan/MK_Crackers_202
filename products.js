@@ -1413,21 +1413,12 @@ window.PRODUCTS = [
     "icon": "🎁"
   },
   {
-    "id": 158,
-    "name": "Rohit 30 items",
-    "category": "gift",
-    "categoryLabel": "Gift Boxes",
-    "content": "30items",
-    "price": 550.0,
-    "icon": "🎁"
-  },
-  {
     "id": 159,
-    "name": "Sachin 35 items",
+    "name": "Sachin 31 items",
     "category": "gift",
     "categoryLabel": "Gift Boxes",
-    "content": "35items",
-    "price": 600.0,
+    "content": "31items",
+    "price": 450.0,
     "icon": "🎁"
   },
   {
@@ -1436,7 +1427,7 @@ window.PRODUCTS = [
     "category": "gift",
     "categoryLabel": "Gift Boxes",
     "content": "40items",
-    "price": 730.0,
+    "price": 600.0,
     "icon": "🎁"
   },
   {
@@ -1445,7 +1436,7 @@ window.PRODUCTS = [
     "category": "gift",
     "categoryLabel": "Gift Boxes",
     "content": "51items",
-    "price": 1100.0,
+    "price": 900.0,
     "icon": "🎁"
   }
 ];
