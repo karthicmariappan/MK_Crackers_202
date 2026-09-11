@@ -1447,5 +1447,32 @@ window.PRODUCTS = [
     "content": "1 Box",
     "price": 45.0,
     "icon": "✨"
+  },
+  {
+    "id": 162,
+    "name": "12 Cm Yellow Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 45.0,
+    "icon": "✨"
+  },
+  {
+    "id": 163,
+    "name": "15 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 49.0,
+    "icon": "✨"
+  },
+  {
+    "id": 164,
+    "name": "15 Cm Color Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 53.0,
+    "icon": "✨"
   }
   ];
