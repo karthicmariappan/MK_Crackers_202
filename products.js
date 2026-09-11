@@ -1,1410 +1,1788 @@
 window.PRODUCTS = [
   {
     "id": 1,
-    "name": "2 3/4 Kuruvi",
+    "name": "4\" Gold Laxmi",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 10.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
+    "price": 36.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 2,
-    "name": "3 1/2 lakshmi",
+    "name": "3 1/2\" Laxmi",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 20.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
+    "price": 19.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 3,
-    "name": "4 lakshmi",
+    "name": "2 3/4 Kuruvi",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 30.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
+    "price": 14.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 4,
-    "name": "4 Dlx lakshmi",
+    "name": "4\" Deluxe Laxmi",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
     "price": 35.0,
-    "icon": "💥"
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 5,
-    "name": "4 Dlx Gold",
+    "name": "4\" Ganapathy",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 40.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
+    "price": 39.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 6,
-    "name": "2 Sound",
+    "name": "4\" Laxmi",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 35.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
+    "price": 23.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 7,
-    "name": "KumKi",
+    "name": "Two Sound Crackers",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 40.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
+    "price": 34.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 8,
-    "name": "Bahubali",
+    "name": "Storm Super Deluxe",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 45.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Pkt",
+    "price": 51.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 9,
-    "name": "Jallikattu",
+    "name": "Red Bijili (100's)",
     "category": "sound",
-    "categoryLabel": "One sound crackers",
-    "content": "5pcs/1pkt",
-    "price": 60.0,
-    "icon": "💥"
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Bag",
+    "price": 47.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 10,
-    "name": "Hydro Bomb",
-    "category": "special",
-    "categoryLabel": "ANUKUNDU",
-    "content": "10pcs/1Box",
-    "price": 65.0,
-    "icon": "⭐"
+    "name": "Bijili (50's)",
+    "category": "sound",
+    "categoryLabel": "One Sound Crackers",
+    "content": "1 Bag",
+    "price": 27.0,
+    "icon": "\ud83d\udca5"
   },
   {
     "id": 11,
-    "name": "King of King Bomb",
-    "category": "special",
-    "categoryLabel": "ANUKUNDU",
-    "content": "10pcs/1Box",
-    "price": 80.0,
-    "icon": "⭐"
+    "name": "Ground Chakkar Big (10 Pcs)",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 40.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 12,
-    "name": "Classic Bomb",
-    "category": "special",
-    "categoryLabel": "ANUKUNDU",
-    "content": "10pcs/1Box",
-    "price": 120.0,
-    "icon": "⭐"
+    "name": "Ground Chakkar Big (25 Pcs)",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 77.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 13,
-    "name": "Sangu Bomb",
-    "category": "special",
-    "categoryLabel": "ANUKUNDU",
-    "content": "10pcs/1Box",
-    "price": 150.0,
-    "icon": "⭐"
+    "name": "Ground Chakkar Special",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 77.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 14,
-    "name": "Digital Bomb",
-    "category": "special",
-    "categoryLabel": "ANUKUNDU",
-    "content": "10pcs/1Box",
-    "price": 220.0,
-    "icon": "⭐"
+    "name": "Ground Chakkar Deluxe",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 137.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 15,
-    "name": "1/4 kg Bomb",
-    "category": "sound",
-    "categoryLabel": "PAPER BOMB",
-    "content": "1pcs/1Box",
-    "price": 60.0,
-    "icon": "💥"
+    "name": "Chakkar Spinner Special",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 110.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 16,
-    "name": "1/2 kg Bomb",
-    "category": "sound",
-    "categoryLabel": "PAPER BOMB",
-    "content": "1pcs/1Box",
-    "price": 100.0,
-    "icon": "💥"
+    "name": "Dancing Wheel",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 89.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 17,
-    "name": "1 kg Bomb",
-    "category": "sound",
-    "categoryLabel": "PAPER BOMB",
-    "content": "1pcs/1Box",
-    "price": 200.0,
-    "icon": "💥"
+    "name": "Scooty wheel",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 105.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 18,
-    "name": "Red Bijili",
-    "category": "sound",
-    "categoryLabel": "BIJILI",
-    "content": "100pcs/1pkt",
-    "price": 20.0,
-    "icon": "💥"
+    "name": "4 x 4 Wheel",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 139.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 19,
-    "name": "Koodu Bijili",
-    "category": "sound",
-    "categoryLabel": "BIJILI",
-    "content": "100pcs/1pkt",
-    "price": 45.0,
-    "icon": "💥"
+    "name": "Hot Cookies",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 209.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 20,
-    "name": "3D Bijili",
-    "category": "sound",
-    "categoryLabel": "BIJILI",
-    "content": "100pcs/1pkt",
-    "price": 50.0,
-    "icon": "💥"
+    "name": "Wire Chakkars Special",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 156.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 21,
-    "name": "100 War",
-    "category": "sound",
-    "categoryLabel": "WAR",
-    "content": "1pcs/1Box",
-    "price": 45.0,
-    "icon": "💥"
+    "name": "Flora Wheel ( 5 Pcs )",
+    "category": "ground",
+    "categoryLabel": "Chakkars",
+    "content": "1 Box",
+    "price": 151.0,
+    "icon": "\ud83c\udf00"
   },
   {
     "id": 22,
-    "name": "1k War",
-    "category": "sound",
-    "categoryLabel": "WAR",
-    "content": "1pcs/1Box",
-    "price": 250.0,
-    "icon": "💥"
+    "name": "Flower Pots Small",
+    "category": "fountain",
+    "categoryLabel": "Flower Pots",
+    "content": "1 Box",
+    "price": 59.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 23,
-    "name": "2k War",
-    "category": "sound",
-    "categoryLabel": "WAR",
-    "content": "1pcs/1Box",
-    "price": 400.0,
-    "icon": "💥"
+    "name": "Flower Pots Big",
+    "category": "fountain",
+    "categoryLabel": "Flower Pots",
+    "content": "1 Box",
+    "price": 69.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 24,
-    "name": "5k War",
-    "category": "sound",
-    "categoryLabel": "WAR",
-    "content": "1pcs/1Box",
-    "price": 1000.0,
-    "icon": "💥"
+    "name": "Flower Pots Special",
+    "category": "fountain",
+    "categoryLabel": "Flower Pots",
+    "content": "1 Box",
+    "price": 88.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 25,
-    "name": "10k war",
-    "category": "sound",
-    "categoryLabel": "WAR",
-    "content": "1pcs/1Box",
-    "price": 1800.0,
-    "icon": "💥"
+    "name": "Flower Pots Ashoka",
+    "category": "fountain",
+    "categoryLabel": "Flower Pots",
+    "content": "1 Box",
+    "price": 126.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 26,
-    "name": "Shinchan",
-    "category": "special",
-    "categoryLabel": "DIGITAL WALA",
-    "content": "5pcs/1Box",
-    "price": 100.0,
-    "icon": "⭐"
+    "name": "Flower Pot Giant",
+    "category": "fountain",
+    "categoryLabel": "Flower Pots",
+    "content": "1 Box",
+    "price": 236.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 27,
-    "name": "90 watts",
-    "category": "special",
-    "categoryLabel": "DIGITAL WALA",
-    "content": "3pcs/1Box",
-    "price": 130.0,
-    "icon": "⭐"
+    "name": "Flower Pot Super Deluxe (5 Pcs)",
+    "category": "fountain",
+    "categoryLabel": "Flower Pots",
+    "content": "1 Box",
+    "price": 175.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 28,
-    "name": "Flowerpot Big",
+    "name": "Colour Blooming",
     "category": "fountain",
     "categoryLabel": "Flower Pots",
-    "content": "10pcs/1Box",
-    "price": 65.0,
-    "icon": "🪔"
+    "content": "1 Box",
+    "price": 293.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 29,
-    "name": "Flowerpot Special",
+    "name": "Green Koti (5 Pcs)",
     "category": "fountain",
     "categoryLabel": "Flower Pots",
-    "content": "10pcs/1Box",
-    "price": 80.0,
-    "icon": "🪔"
+    "content": "1 Box",
+    "price": 149.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 30,
-    "name": "Flowerpot Asoka",
+    "name": "Rang Jelly",
     "category": "fountain",
     "categoryLabel": "Flower Pots",
-    "content": "10pcs/1Box",
-    "price": 120.0,
-    "icon": "🪔"
+    "content": "1 Box",
+    "price": 226.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 31,
-    "name": "Flowerpot Giant",
+    "name": "Green Bouquet",
     "category": "fountain",
     "categoryLabel": "Flower Pots",
-    "content": "10pcs/1Box",
-    "price": 150.0,
-    "icon": "🪔"
+    "content": "1 Box",
+    "price": 279.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 32,
-    "name": "Flowerpot Colour Koti",
+    "name": "Tri Colour (5 Pcs)",
     "category": "fountain",
     "categoryLabel": "Flower Pots",
-    "content": "10pcs/1Box",
-    "price": 200.0,
-    "icon": "🪔"
+    "content": "1 Box",
+    "price": 285.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 33,
-    "name": "Flowerpot Colour Koti Dlx",
-    "category": "fountain",
-    "categoryLabel": "Flower Pots",
-    "content": "10pcs/1Box",
-    "price": 300.0,
-    "icon": "🪔"
+    "name": "Baby Rockets",
+    "category": "rocket",
+    "categoryLabel": "Rockets",
+    "content": "1 Box",
+    "price": 47.0,
+    "icon": "\ud83d\ude80"
   },
   {
     "id": 34,
-    "name": "Shinchan Tricolour",
-    "category": "fountain",
-    "categoryLabel": "Tri Colour Pots",
-    "content": "3pcs/1Box",
-    "price": 130.0,
-    "icon": "🪔"
+    "name": "Rocket Bomb",
+    "category": "rocket",
+    "categoryLabel": "Rockets",
+    "content": "1 Box",
+    "price": 67.0,
+    "icon": "\ud83d\ude80"
   },
   {
     "id": 35,
-    "name": "Queen Tricolour",
-    "category": "fountain",
-    "categoryLabel": "Tri Colour Pots",
-    "content": "5pcs/1Box",
-    "price": 200.0,
-    "icon": "🪔"
+    "name": "Colour Rocket",
+    "category": "rocket",
+    "categoryLabel": "Rockets",
+    "content": "1 Box",
+    "price": 75.0,
+    "icon": "\ud83d\ude80"
   },
   {
     "id": 36,
-    "name": "Skyking Tricolour",
-    "category": "fountain",
-    "categoryLabel": "Tri Colour Pots",
-    "content": "5pcs/1Box",
-    "price": 250.0,
-    "icon": "🪔"
+    "name": "Lunik Rocket",
+    "category": "rocket",
+    "categoryLabel": "Rockets",
+    "content": "1 Box",
+    "price": 107.0,
+    "icon": "\ud83d\ude80"
   },
   {
     "id": 37,
-    "name": "Deluxe Tricolour",
-    "category": "fountain",
-    "categoryLabel": "Tri Colour Pots",
-    "content": "5pcs/1Box",
-    "price": 180.0,
-    "icon": "🪔"
+    "name": "Silver Jet",
+    "category": "rocket",
+    "categoryLabel": "Rockets",
+    "content": "1 Box",
+    "price": 185.0,
+    "icon": "\ud83d\ude80"
   },
   {
     "id": 38,
-    "name": "Groundchakkar Big",
-    "category": "ground",
-    "categoryLabel": "Ground chakkar",
-    "content": "10pcs/1Box",
-    "price": 35.0,
-    "icon": "🌀"
+    "name": "Musical Jet",
+    "category": "rocket",
+    "categoryLabel": "Rockets",
+    "content": "1 Box",
+    "price": 203.0,
+    "icon": "\ud83d\ude80"
   },
   {
     "id": 39,
-    "name": "Groundchakkar Special",
-    "category": "ground",
-    "categoryLabel": "Ground chakkar",
-    "content": "10pcs/1Box",
-    "price": 85.0,
-    "icon": "🌀"
+    "name": "Bullet Bomb",
+    "category": "bomb",
+    "categoryLabel": "Atom Bombs",
+    "content": "1 Box",
+    "price": 32.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 40,
-    "name": "Groundchakkar Deluxe",
-    "category": "ground",
-    "categoryLabel": "Ground chakkar",
-    "content": "10pcs/1Box",
-    "price": 160.0,
-    "icon": "🌀"
+    "name": "Hydro Bomb",
+    "category": "bomb",
+    "categoryLabel": "Atom Bombs",
+    "content": "1 Box",
+    "price": 73.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 41,
-    "name": "Special Spinner",
-    "category": "ground",
-    "categoryLabel": "Elite chakkar",
-    "content": "10pcs/1Box",
-    "price": 150.0,
-    "icon": "🌀"
+    "name": "Greeny Bomb",
+    "category": "bomb",
+    "categoryLabel": "Atom Bombs",
+    "content": "1 Box",
+    "price": 93.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 42,
-    "name": "4x4 Wheel",
-    "category": "ground",
-    "categoryLabel": "Elite chakkar",
-    "content": "5pcs/1Box",
-    "price": 130.0,
-    "icon": "🌀"
+    "name": "Thunder Bold Bomb",
+    "category": "bomb",
+    "categoryLabel": "Atom Bombs",
+    "content": "1 Box",
+    "price": 115.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 43,
-    "name": "900'cc",
-    "category": "ground",
-    "categoryLabel": "Elite chakkar",
-    "content": "5pcs/1Box",
-    "price": 150.0,
-    "icon": "🌀"
+    "name": "Kango King Bomb",
+    "category": "bomb",
+    "categoryLabel": "Atom Bombs",
+    "content": "1 Box",
+    "price": 152.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 44,
-    "name": "Wizz Chakkar",
-    "category": "ground",
-    "categoryLabel": "Elite chakkar",
-    "content": "2pcs/1Box",
-    "price": 100.0,
-    "icon": "🌀"
+    "name": "Lazer Bomb",
+    "category": "bomb",
+    "categoryLabel": "Atom Bombs",
+    "content": "1 Box",
+    "price": 277.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 45,
-    "name": "Vadivel Dixie",
-    "category": "ground",
-    "categoryLabel": "Elite chakkar",
-    "content": "5pcs/1Box",
-    "price": 150.0,
-    "icon": "🌀"
+    "name": "Magic Show(money in Bank) (3 Pcs) Mini",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 120.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 46,
-    "name": "1 1/2 Twinkling star",
-    "category": "special",
-    "categoryLabel": "Twinkling Star",
-    "content": "10pcs/1Box",
-    "price": 25.0,
-    "icon": "⭐"
+    "name": "Magic Show(money in Bank) (2 Pcs)",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 225.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 47,
-    "name": "4 Twinkling star",
-    "category": "special",
-    "categoryLabel": "Twinkling Star",
-    "content": "10pcs/1Box",
-    "price": 60.0,
-    "icon": "⭐"
+    "name": "Paper Bomb",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 67.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 48,
-    "name": "2 Sound Rocket",
-    "category": "fancy",
-    "categoryLabel": "Rocket series",
-    "content": "10pcs/1Box",
-    "price": 100.0,
-    "icon": "🎇"
+    "name": "Paper Bomb (Small)",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 111.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 49,
-    "name": "Lunik Rocket",
-    "category": "fancy",
-    "categoryLabel": "Rocket series",
-    "content": "10pcs/1Box",
-    "price": 120.0,
-    "icon": "🎇"
+    "name": "Paper Bomb (Big)",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 167.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 50,
-    "name": "Whistling Rocket",
-    "category": "fancy",
-    "categoryLabel": "Rocket series",
-    "content": "5pcs/1Box",
-    "price": 150.0,
-    "icon": "🎇"
+    "name": "Paper Bomb (10 Pcs)(Avathar)",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 255.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 51,
-    "name": "Selfi Stick",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "3pcs/1Box",
-    "price": 45.0,
-    "icon": "⭐"
+    "name": "Colour Paper Bomb",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 75.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 52,
-    "name": "Butterfly",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "10pcs/1Box",
-    "price": 80.0,
-    "icon": "⭐"
+    "name": "Cylinder Smoke Bomb",
+    "category": "bomb",
+    "categoryLabel": "Paper Bombs",
+    "content": "1 Box",
+    "price": 245.0,
+    "icon": "\ud83d\udca3"
   },
   {
     "id": 53,
-    "name": "Spinner",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "10pcs/1Box",
-    "price": 100.0,
-    "icon": "⭐"
+    "name": "7 Cm Magic Pencil",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
+    "price": 35.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 54,
-    "name": "Helicopter",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "5pcs/1Box",
-    "price": 100.0,
-    "icon": "⭐"
+    "name": "12 Cm Pencil",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
+    "price": 88.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 55,
-    "name": "Photo Flash",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "5pcs/1Box",
-    "price": 60.0,
-    "icon": "⭐"
+    "name": "Ultra Pencil",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
+    "price": 73.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 56,
-    "name": "Colour Smoke",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "3pcs/1Box",
+    "name": "Jot Down (3 Pcs)",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
     "price": 150.0,
-    "icon": "⭐"
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 57,
-    "name": "Mega Siren",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "3pcs/1Box",
-    "price": 170.0,
-    "icon": "⭐"
+    "name": "Fuji Candles",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
+    "price": 167.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 58,
-    "name": "Gold Drops",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "5pcs/1Box",
-    "price": 100.0,
-    "icon": "⭐"
+    "name": "50 Seconds Torch(5 Pcs)",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
+    "price": 133.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 59,
-    "name": "Feather Drops",
-    "category": "special",
-    "categoryLabel": "Kutty's Series",
-    "content": "5pcs/1Box",
-    "price": 100.0,
-    "icon": "⭐"
+    "name": "1 1/2\" Twinkling Star",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
+    "price": 38.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 60,
-    "name": "Pogo",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 170.0,
-    "icon": "🪔"
+    "name": "4\" Twinkling Star",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Box",
+    "price": 89.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 61,
-    "name": "Angry Bird",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 270.0,
-    "icon": "🪔"
+    "name": "Green Twinkling Star",
+    "category": "candle",
+    "categoryLabel": "Candles & Twinkling Star",
+    "content": "1 Pkt",
+    "price": 55.0,
+    "icon": "\ud83d\udd6f\ufe0f"
   },
   {
     "id": 62,
-    "name": "Sunfeast",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 150.0,
-    "icon": "🪔"
+    "name": "Sky Shot (10 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 125.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 63,
-    "name": "Gold Star",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 130.0,
-    "icon": "🪔"
+    "name": "Snake Cartoons (10 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 47.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 64,
-    "name": "Red Sun",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 180.0,
-    "icon": "🪔"
+    "name": "Assorted Cartoons (10 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 37.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 65,
-    "name": "King Crackling",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 220.0,
-    "icon": "🪔"
+    "name": "Ruby or Emerald",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 41.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 66,
-    "name": "Croods",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 160.0,
-    "icon": "🪔"
+    "name": "Zig Zag",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 35.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 67,
-    "name": "Kitkat",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 35.0,
-    "icon": "🪔"
+    "name": "Magic Star",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 29.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 68,
-    "name": "Wonder 3 in 1",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 220.0,
-    "icon": "🪔"
+    "name": "Swing Pots/Rollick pop/Cha cha Pop",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 107.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 69,
-    "name": "Free Fire",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 200.0,
-    "icon": "🪔"
+    "name": "Ganga Jumuna (5 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 75.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 70,
-    "name": "Power pot",
-    "category": "fountain",
-    "categoryLabel": "Skyking Brand Fountain",
-    "content": "5pcs/1Box",
-    "price": 180.0,
-    "icon": "🪔"
+    "name": "Musical Siren",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 228.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 71,
-    "name": "Dairy Milk",
-    "category": "fountain",
-    "categoryLabel": "Skyking Candle",
-    "content": "1pcs/1Box",
-    "price": 80.0,
-    "icon": "🪔"
+    "name": "Tin Beer",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 105.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 72,
-    "name": "Hi-Tech",
-    "category": "fountain",
-    "categoryLabel": "Skyking Candle",
-    "content": "3pcs/1Box",
-    "price": 160.0,
-    "icon": "🪔"
+    "name": "Butterfly",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 105.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 73,
-    "name": "La-La Candle",
-    "category": "fountain",
-    "categoryLabel": "Skyking Candle",
-    "content": "3pcs/1Box",
-    "price": 170.0,
-    "icon": "🪔"
+    "name": "Bambaram (10 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 100.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 74,
-    "name": "Spinner Mix",
-    "category": "special",
-    "categoryLabel": "Vanitha Special",
-    "content": "8pcs/1Box",
-    "price": 150.0,
-    "icon": "⭐"
+    "name": "Drone (5 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 197.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 75,
-    "name": "Rope Colour",
-    "category": "special",
-    "categoryLabel": "Vanitha Special",
-    "content": "4pcs/1Box",
-    "price": 180.0,
-    "icon": "⭐"
+    "name": "Helicopter (5 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 115.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 76,
-    "name": "Colour Cone",
-    "category": "special",
-    "categoryLabel": "Vanitha Special",
-    "content": "10pcs/1Box",
-    "price": 500.0,
-    "icon": "⭐"
+    "name": "Photo Flash",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 91.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 77,
-    "name": "4' Pinkout",
-    "category": "special",
-    "categoryLabel": "Vanitha Special",
-    "content": "2pcs/1Box",
-    "price": 1400.0,
-    "icon": "⭐"
+    "name": "Doobys (20 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 163.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 78,
-    "name": "4' Autumn Rain",
-    "category": "special",
-    "categoryLabel": "Vadivel Special",
-    "content": "1pcs/1Box",
-    "price": 150.0,
-    "icon": "⭐"
+    "name": "Bimboo (20 Pcs)",
+    "category": "novelty",
+    "categoryLabel": "Fancy Novelties",
+    "content": "1 Box",
+    "price": 163.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 79,
-    "name": "Dexter Magic",
+    "name": "Pringles Mix & 5 Colors",
     "category": "special",
-    "categoryLabel": "Vadivel Special",
-    "content": "5pcs/1Box",
-    "price": 160.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 41.0,
+    "icon": "\u2b50"
   },
   {
     "id": 80,
-    "name": "3.5' Bad Boy",
+    "name": "Oreo",
     "category": "special",
-    "categoryLabel": "Vadivel Special",
-    "content": "3pcs/1Box",
-    "price": 400.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 70.0,
+    "icon": "\u2b50"
   },
   {
     "id": 81,
-    "name": "Sunfeast Peacock",
+    "name": "Wizz",
     "category": "special",
-    "categoryLabel": "Vadivel Special",
-    "content": "1pcs/1Box",
-    "price": 450.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 136.0,
+    "icon": "\u2b50"
   },
   {
     "id": 82,
-    "name": "36 whistle Shot",
+    "name": "Rainbow Color Smoke (Hand Held)",
     "category": "special",
-    "categoryLabel": "Vadivel Special",
-    "content": "1pcs/1Box",
-    "price": 60.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 157.0,
+    "icon": "\u2b50"
   },
   {
     "id": 83,
-    "name": "Robo Mix",
+    "name": "Rio, Shrek (Red, Green Shower)",
     "category": "special",
-    "categoryLabel": "Vadivel Special",
-    "content": "5pcs/1Box",
-    "price": 170.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 139.0,
+    "icon": "\u2b50"
   },
   {
     "id": 84,
-    "name": "Money in the Bank",
+    "name": "Minions, Emoji (Gold, Silver Shower)",
     "category": "special",
-    "categoryLabel": "Starvel Special",
-    "content": "3pcs/1Box",
-    "price": 150.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 139.0,
+    "icon": "\u2b50"
   },
   {
     "id": 85,
-    "name": "OLD is gold",
+    "name": "Selfie Stick",
     "category": "special",
-    "categoryLabel": "Starvel Special",
-    "content": "25pcs/1Box",
-    "price": 150.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 81.0,
+    "icon": "\u2b50"
   },
   {
     "id": 86,
-    "name": "Dora Singer",
+    "name": "Disco Shower",
     "category": "special",
-    "categoryLabel": "Starvel Special",
-    "content": "5pcs/1Box",
-    "price": 130.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 105.0,
+    "icon": "\u2b50"
   },
   {
     "id": 87,
-    "name": "3' Tin Mix",
+    "name": "Perk/Kit Kat/Diary Milk Fountain",
     "category": "special",
-    "categoryLabel": "Starvel Special",
-    "content": "1pcs/1Box",
-    "price": 100.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 200.0,
+    "icon": "\u2b50"
   },
   {
     "id": 88,
-    "name": "4.5' Tin Mix",
+    "name": "Peacock Feathers",
     "category": "special",
-    "categoryLabel": "Starvel Special",
-    "content": "1pcs/1Box",
-    "price": 120.0,
-    "icon": "⭐"
+    "categoryLabel": "Elite Series",
+    "content": "1 Box",
+    "price": 80.0,
+    "icon": "\u2b50"
   },
   {
     "id": 89,
-    "name": "Once more Tin",
-    "category": "special",
-    "categoryLabel": "Starvel Special",
-    "content": "5pcs/1Box",
-    "price": 200.0,
-    "icon": "⭐"
+    "name": "Star King",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 122.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 90,
-    "name": "Sky Shot",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "5pcs/1Box",
-    "price": 70.0,
-    "icon": "🎇"
+    "name": "Magical Fountain",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 122.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 91,
-    "name": "7 Shot",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "5pcs/1Box",
-    "price": 120.0,
-    "icon": "🎇"
+    "name": "Tim Tim Laddu",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 230.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 92,
-    "name": "White Gun",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "5pcs/1Box",
-    "price": 200.0,
-    "icon": "🎇"
+    "name": "Asrafi Laddu",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 395.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 93,
-    "name": "penta Magic",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "5pcs/1Box",
-    "price": 220.0,
-    "icon": "🎇"
+    "name": "Jasmine Laddu",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 401.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 94,
-    "name": "10 shot Polo Star",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 180.0,
-    "icon": "🎇"
+    "name": "Deluxe Laddu",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 581.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 95,
-    "name": "10 shot Rang Chakkar",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 260.0,
-    "icon": "🎇"
+    "name": "Laddu 2 in 1",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 425.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 96,
-    "name": "12 shot Red & Green",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 150.0,
-    "icon": "🎇"
+    "name": "Laddu Color Changes",
+    "category": "novelty",
+    "categoryLabel": "New Novelties",
+    "content": "1 Box",
+    "price": 410.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 97,
-    "name": "15 Shot Blossom Queen",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 260.0,
-    "icon": "🎇"
+    "name": "Cyber Orbit",
+    "category": "novelty",
+    "categoryLabel": "New Arrival",
+    "content": "1 Box",
+    "price": 140.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 98,
-    "name": "30Shot Multicolour",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 380.0,
-    "icon": "🎇"
+    "name": "I Cone",
+    "category": "novelty",
+    "categoryLabel": "New Arrival",
+    "content": "1 Box",
+    "price": 205.0,
+    "icon": "\ud83c\udf89"
   },
   {
     "id": 99,
-    "name": "30 Shot Elite",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 450.0,
-    "icon": "🎇"
+    "name": "Peacock Meena",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 223.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 100,
-    "name": "60Shot Multicolour",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 760.0,
-    "icon": "🎇"
+    "name": "Peacock",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 185.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 101,
-    "name": "60 Shot Elite",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 900.0,
-    "icon": "🎇"
+    "name": "Bada Peacock",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 389.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 102,
-    "name": "120 Shot Multicolour",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 1800.0,
-    "icon": "🎇"
+    "name": "Holi",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 140.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 103,
-    "name": "240 Shot Multiclour",
-    "category": "fancy",
-    "categoryLabel": "Multicolour Shots",
-    "content": "1pcs/1Box",
-    "price": 3200.0,
-    "icon": "🎇"
+    "name": "Gold Rush / Kinder Joy",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 121.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 104,
-    "name": "1' Chotta Mix",
-    "category": "fancy",
-    "categoryLabel": "One Shot Fancy",
-    "content": "1pcs/1Box",
-    "price": 40.0,
-    "icon": "🎇"
+    "name": "Star Burst",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 151.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 105,
-    "name": "2' Mass Mix",
-    "category": "fancy",
-    "categoryLabel": "One Shot Fancy",
-    "content": "1pcs/1Box",
-    "price": 90.0,
-    "icon": "🎇"
+    "name": "Magic Pot(6 Pcs)",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 165.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 106,
-    "name": "2' Thunder Mix",
-    "category": "fancy",
-    "categoryLabel": "One Shot Fancy",
-    "content": "1pcs/1Box",
-    "price": 280.0,
-    "icon": "🎇"
+    "name": "Popcorn",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 236.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 107,
-    "name": "2½' 3 Step",
-    "category": "fancy",
-    "categoryLabel": "One Shot Fancy",
-    "content": "1pcs/1Box",
-    "price": 350.0,
-    "icon": "🎇"
+    "name": "Lollipop",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 215.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 108,
-    "name": "3½' Multi colour",
-    "category": "fancy",
-    "categoryLabel": "3½ fancy",
-    "content": "1pcs/1Box",
-    "price": 260.0,
-    "icon": "🎇"
+    "name": "PUBG Gun",
+    "category": "fountain",
+    "categoryLabel": "Fountains",
+    "content": "1 Box",
+    "price": 165.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 109,
-    "name": "3½' Crackling",
-    "category": "fancy",
-    "categoryLabel": "3½ fancy",
-    "content": "1pcs/1Box",
+    "name": "Wonder Bees",
+    "category": "fountain",
+    "categoryLabel": "Mega Fountains",
+    "content": "1 Box",
     "price": 280.0,
-    "icon": "🎇"
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 110,
-    "name": "3½' Sizzling",
-    "category": "fancy",
-    "categoryLabel": "3½ fancy",
-    "content": "1pcs/1Box",
+    "name": "Silver Bees",
+    "category": "fountain",
+    "categoryLabel": "Mega Fountains",
+    "content": "1 Box",
     "price": 280.0,
-    "icon": "🎇"
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 111,
-    "name": "3½' Nayagara Falls",
-    "category": "fancy",
-    "categoryLabel": "3½ fancy",
-    "content": "1pcs/1Box",
-    "price": 300.0,
-    "icon": "🎇"
+    "name": "Blooming Valcano",
+    "category": "fountain",
+    "categoryLabel": "Mega Fountains",
+    "content": "1 Box",
+    "price": 319.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 112,
-    "name": "3½ Double Ball",
-    "category": "fancy",
-    "categoryLabel": "3½ fancy",
-    "content": "1pcs/1Box",
-    "price": 400.0,
-    "icon": "🎇"
+    "name": "Water Queen (Fav Pot)",
+    "category": "fountain",
+    "categoryLabel": "Mega Fountains",
+    "content": "1 Pce",
+    "price": 165.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 113,
-    "name": "3½ Krishna World Series",
-    "category": "fancy",
-    "categoryLabel": "3½ fancy",
-    "content": "1pcs/1Box",
-    "price": 850.0,
-    "icon": "🎇"
+    "name": "Mega Crackling",
+    "category": "fountain",
+    "categoryLabel": "Mega Fountains",
+    "content": "1 Box",
+    "price": 135.0,
+    "icon": "\ud83e\ude94"
   },
   {
     "id": 114,
-    "name": "3½ Vadivel Aerial Shells",
-    "category": "fancy",
-    "categoryLabel": "3½ fancy",
-    "content": "1pcs/1Box",
-    "price": 1100.0,
-    "icon": "🎇"
+    "name": "7 Shot (5 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Mini Aerial Fancy",
+    "content": "1 Box",
+    "price": 127.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 115,
-    "name": "4' Aanandas Million",
-    "category": "fancy",
-    "categoryLabel": "4 Fancy",
-    "content": "2pcs/1Box",
-    "price": 700.0,
-    "icon": "🎇"
+    "name": "7 Shots (10 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Mini Aerial Fancy",
+    "content": "1 Box",
+    "price": 249.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 116,
-    "name": "4' Aanandas R.R. Double Ball",
-    "category": "fancy",
-    "categoryLabel": "4 Fancy",
-    "content": "2pcs/1Box",
-    "price": 500.0,
-    "icon": "🎇"
+    "name": "Penta 5 (5 PCS)",
+    "category": "aerial",
+    "categoryLabel": "Mini Aerial Fancy",
+    "content": "1 Box",
+    "price": 156.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 117,
-    "name": "4' Selvi multicolour",
-    "category": "fancy",
-    "categoryLabel": "4 Fancy",
-    "content": "2pcs/1Box",
-    "price": 600.0,
-    "icon": "🎇"
+    "name": "Koi (5 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Mini Aerial Fancy",
+    "content": "1 Box",
+    "price": 176.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 118,
-    "name": "4' Spanka Fruits Series",
-    "category": "fancy",
-    "categoryLabel": "4 Fancy",
-    "content": "2pcs/1Box",
-    "price": 1000.0,
-    "icon": "🎇"
+    "name": "Tango 1\" Chotta Fancy",
+    "category": "aerial",
+    "categoryLabel": "Mini Aerial Fancy",
+    "content": "1 Box",
+    "price": 69.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 119,
-    "name": "5' Annai Boom Series",
-    "category": "fancy",
-    "categoryLabel": "5 Fancy",
-    "content": "1pcs/1Box",
-    "price": 650.0,
-    "icon": "🎇"
+    "name": "1 3/4\" Fancy (3 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 300.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 120,
-    "name": "5' Selvi Multi colour",
-    "category": "fancy",
-    "categoryLabel": "5 Fancy",
-    "content": "1pcs/1Box",
-    "price": 700.0,
-    "icon": "🎇"
+    "name": "2\" Fancy(2 Pcs Mix)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 332.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 121,
-    "name": "5' Spanka Wedding Series",
-    "category": "fancy",
-    "categoryLabel": "5 Fancy",
-    "content": "1pcs/1Box",
-    "price": 1200.0,
-    "icon": "🎇"
+    "name": "2\" Fancy(3 Pcs Mix)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 405.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 122,
-    "name": "6' Balaji Super Hero S",
-    "category": "fancy",
-    "categoryLabel": "5 Fancy",
-    "content": "1pcs/1Box",
-    "price": 1500.0,
-    "icon": "🎇"
+    "name": "2\" Fancy(3 Step)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 185.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 123,
-    "name": "Joker Feather",
-    "category": "fancy",
-    "categoryLabel": "Peacock Series",
-    "content": "5pcs/1Box",
-    "price": 120.0,
-    "icon": "🎇"
+    "name": "2 1/2\" Fancy (1 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 225.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 124,
-    "name": "Peacock Maja",
-    "category": "fancy",
-    "categoryLabel": "Peacock Series",
-    "content": "1pcs/1Box",
-    "price": 140.0,
-    "icon": "🎇"
+    "name": "3\" Fancy (1 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 305.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 125,
-    "name": "Peacock Ultra",
-    "category": "fancy",
-    "categoryLabel": "Peacock Series",
-    "content": "1pcs/1Box",
-    "price": 150.0,
-    "icon": "🎇"
+    "name": "3\" Fancy (2 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 605.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 126,
-    "name": "Bada Peacock",
-    "category": "fancy",
-    "categoryLabel": "Peacock Series",
-    "content": "1pcs/1Box",
-    "price": 220.0,
-    "icon": "🎇"
+    "name": "4\" Fancy (1 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 348.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 127,
-    "name": "Royal Peacock",
-    "category": "fancy",
-    "categoryLabel": "Peacock Series",
-    "content": "1pcs/1Box",
-    "price": 400.0,
-    "icon": "🎇"
+    "name": "4\" Fancy 7 Steps",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 375.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 128,
-    "name": "10cm Electric",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 20.0,
-    "icon": "✨"
+    "name": "4\" Fancy Double Ball",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 505.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 129,
-    "name": "10cm Crackling",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 25.0,
-    "icon": "✨"
+    "name": "5\" Fancy",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 430.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 130,
-    "name": "10cm Red",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 28.0,
-    "icon": "✨"
+    "name": "5\" Fancy (2 Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 855.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 131,
-    "name": "10cm Green",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 30.0,
-    "icon": "✨"
+    "name": "6\" Fancy (1Pcs)",
+    "category": "aerial",
+    "categoryLabel": "Aerial Magic Fancy",
+    "content": "1 Box",
+    "price": 1005.0,
+    "icon": "\ud83c\udf87"
   },
   {
     "id": 132,
-    "name": "15cm Electric",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 40.0,
-    "icon": "✨"
+    "name": "Pyro Party,Crackling Honda",
+    "category": "setout",
+    "categoryLabel": "Set Out",
+    "content": "1 Box",
+    "price": 1025.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 133,
-    "name": "15cm Crackling",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 42.0,
-    "icon": "✨"
+    "name": "Zumo 5X10",
+    "category": "setout",
+    "categoryLabel": "Set Out",
+    "content": "1 Box",
+    "price": 2055.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 134,
-    "name": "15cm Red",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 44.0,
-    "icon": "✨"
+    "name": "Mat Max 25 shot",
+    "category": "setout",
+    "categoryLabel": "Set Out",
+    "content": "1 Box",
+    "price": 3880.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 135,
-    "name": "15cm Green",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "10pcs/1Box",
-    "price": 46.0,
-    "icon": "✨"
+    "name": "Mega Monster 24 shot",
+    "category": "setout",
+    "categoryLabel": "Set Out",
+    "content": "1 Box",
+    "price": 8125.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 136,
-    "name": "30cm Electric",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "5pcs/1Box",
-    "price": 40.0,
-    "icon": "✨"
+    "name": "Mega Juke Box 40 shot",
+    "category": "setout",
+    "categoryLabel": "Set Out",
+    "content": "1 Box",
+    "price": 8555.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 137,
-    "name": "30cm Crackling",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "5pcs/1Box",
-    "price": 42.0,
-    "icon": "✨"
+    "name": "10 Shot (Hand Held)",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 405.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 138,
-    "name": "30cm Red",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "5pcs/1Box",
-    "price": 44.0,
-    "icon": "✨"
+    "name": "12 Shot",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 185.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 139,
-    "name": "30cm Green",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "5pcs/1Box",
-    "price": 46.0,
-    "icon": "✨"
+    "name": "Midnight Jazz (12 Shot)",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 220.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 140,
-    "name": "50 cm ELC",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "5pcs/1Box",
-    "price": 150.0,
-    "icon": "✨"
+    "name": "Sky Scrapper (12 Shot)",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 305.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 141,
-    "name": "50 cm Colour",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "5pcs/1Box",
-    "price": 180.0,
-    "icon": "✨"
+    "name": "Rang Chakkar (12 Shot)",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 325.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 142,
-    "name": "Rotating Sparklers",
-    "category": "sparkler",
-    "categoryLabel": "Sparklers",
-    "content": "5pcs/1Box",
-    "price": 220.0,
-    "icon": "✨"
+    "name": "25 Shot Rider",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 215.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 143,
-    "name": "Tom & Jerry",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "6pcs/1tin",
-    "price": 170.0,
-    "icon": "⭐"
+    "name": "Vonka 12 Shot",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 435.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 144,
-    "name": "Cylinder Bomb",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "5pcs/1Box",
-    "price": 250.0,
-    "icon": "⭐"
+    "name": "Vonka 24 Shot",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 815.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 145,
-    "name": "Thor",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "5pcs/1Box",
-    "price": 60.0,
-    "icon": "⭐"
+    "name": "30 Shot I Max",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 530.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 146,
-    "name": "Purple Dove",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "2pcs/1Box",
-    "price": 85.0,
-    "icon": "⭐"
+    "name": "60 Shot I Max",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 1055.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 147,
-    "name": "Pogo Mixed",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "2pcs/1Box",
-    "price": 90.0,
-    "icon": "⭐"
+    "name": "120 Shot I Max",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 2105.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 148,
-    "name": "Monkey Star",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "1pcs/1Box",
-    "price": 220.0,
-    "icon": "⭐"
+    "name": "240 Shot I Max",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 4205.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 149,
-    "name": "Sun Light",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "5pcs/1Box",
-    "price": 120.0,
-    "icon": "⭐"
+    "name": "Bacardi Nites(100Shots Crackling)",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 2505.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 150,
-    "name": "Star Light",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "5pcs/1Box",
-    "price": 120.0,
-    "icon": "⭐"
+    "name": "500 Shot",
+    "category": "repeating",
+    "categoryLabel": "Repeating Shots",
+    "content": "1 Box",
+    "price": 7805.0,
+    "icon": "\ud83c\udf86"
   },
   {
     "id": 151,
-    "name": "Moon Light",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "5pcs/1Box",
-    "price": 120.0,
-    "icon": "⭐"
+    "name": "7 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 15.0,
+    "icon": "\u2728"
   },
   {
     "id": 152,
-    "name": "ORI Fountain",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "1pcs/1Box",
-    "price": 160.0,
-    "icon": "⭐"
+    "name": "7 Cm Color Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 17.0,
+    "icon": "\u2728"
   },
   {
     "id": 153,
-    "name": "Pink Panther",
-    "category": "special",
-    "categoryLabel": "Elite crackers",
-    "content": "1pcs/1Box",
-    "price": 200.0,
-    "icon": "⭐"
+    "name": "7 Cm Green Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 18.2,
+    "icon": "\u2728"
   },
   {
     "id": 154,
-    "name": "Hoodibaba",
-    "category": "sound",
-    "categoryLabel": "Matches",
-    "content": "1Box",
-    "price": 60.0,
-    "icon": "💥"
+    "name": "7 Cm Red Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 19.0,
+    "icon": "\u2728"
   },
   {
     "id": 155,
-    "name": "Blooms",
-    "category": "sound",
-    "categoryLabel": "Matches",
-    "content": "1Box",
-    "price": 100.0,
-    "icon": "💥"
+    "name": "10 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 27.0,
+    "icon": "\u2728"
   },
   {
     "id": 156,
-    "name": "Nokia 5in1",
-    "category": "sound",
-    "categoryLabel": "Matches",
-    "content": "1Box",
-    "price": 200.0,
-    "icon": "💥"
+    "name": "10 Cm Color Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 29.0,
+    "icon": "\u2728"
   },
   {
     "id": 157,
+    "name": "10 Cm Green Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 31.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 158,
+    "name": "10 Cm Red Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 33.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 159,
+    "name": "5 in 1 Sparklers (10 Cm)",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 145.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 160,
+    "name": "12 Cm Golden Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 45.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 161,
+    "name": "12 Cm Aqua Blue Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 45.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 162,
+    "name": "12 Cm Yellow Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 45.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 163,
+    "name": "15 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 49.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 164,
+    "name": "15 Cm Color Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 53.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 165,
+    "name": "15 Cm Green Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 57.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 166,
+    "name": "15 Cm Red Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 65.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 167,
+    "name": "30 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 49.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 168,
+    "name": "30 Cm Color Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 53.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 169,
+    "name": "30 Cm Green Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 57.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 170,
+    "name": "30 Cm Red Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 65.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 171,
+    "name": "50 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 165.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 172,
+    "name": "75 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 225.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 173,
+    "name": "Rotating Sparklers(30 cm)",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 245.0,
+    "icon": "\u2728"
+  },
+  {
+    "id": 174,
+    "name": "Baby Matches",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 15.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 175,
+    "name": "Super Kings (10 in 1)",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 63.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 176,
+    "name": "Super Deluxe 10 in 1",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 71.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 177,
+    "name": "7 Up Rainbow",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 135.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 178,
+    "name": "Classic 5 in 1",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 120.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 179,
+    "name": "VIP Matches",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 225.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 180,
+    "name": "Snake serpent Egg (Sony) (50 Pcs)",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 43.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 181,
+    "name": "Anaconda",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 75.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 182,
+    "name": "Roll Cap",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 81.0,
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": 183,
+    "name": "30 Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 405.0,
+    "icon": "\ud83c\udf86"
+  },
+  {
+    "id": 184,
+    "name": "60Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 805.0,
+    "icon": "\ud83c\udf86"
+  },
+  {
+    "id": 185,
+    "name": "120 Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 1605.0,
+    "icon": "\ud83c\udf86"
+  },
+  {
+    "id": 186,
+    "name": "240 Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 3205.0,
+    "icon": "\ud83c\udf86"
+  },
+  {
+    "id": 187,
+    "name": "28 Chorsa",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 20.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 188,
+    "name": "28 Gaint",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 26.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 189,
+    "name": "56 Gaint",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 45.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 190,
+    "name": "100 Wala",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 45.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 191,
+    "name": "100 Wala Gaint",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 185.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 192,
+    "name": "100 Wala Mega Deluxe",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 225.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 193,
+    "name": "1000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 185.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 194,
+    "name": "2000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 365.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 195,
+    "name": "5000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 905.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 196,
+    "name": "10000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 1805.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 197,
+    "name": "1000 Wala (Full)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 365.0,
+    "icon": "\ud83e\udde8"
+  },
+  {
+    "id": 198,
+    "name": "5000 Wala (Full)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 1805.0,
+    "icon": "\ud83e\udde8"
+  }
+  {
+    "id": 199,
     "name": "Yuvi 21 items",
     "category": "gift",
     "categoryLabel": "Gift Boxes",
@@ -1413,7 +1791,7 @@ window.PRODUCTS = [
     "icon": "🎁"
   },
   {
-    "id": 159,
+    "id": 200,
     "name": "Sachin 31 items",
     "category": "gift",
     "categoryLabel": "Gift Boxes",
@@ -1422,7 +1800,7 @@ window.PRODUCTS = [
     "icon": "🎁"
   },
   {
-    "id": 160,
+    "id": 201,
     "name": "Kohli 40 items",
     "category": "gift",
     "categoryLabel": "Gift Boxes",
@@ -1431,7 +1809,7 @@ window.PRODUCTS = [
     "icon": "🎁"
   },
   {
-    "id": 161,
+    "id": 202,
     "name": "Dhoni 51 items",
     "category": "gift",
     "categoryLabel": "Gift Boxes",
