@@ -1474,5 +1474,140 @@ window.PRODUCTS = [
     "content": "1 Box",
     "price": 53.0,
     "icon": "✨"
+  },
+  {
+    "id": 165,
+    "name": "15 Cm Green Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 57.0,
+    "icon": "✨"
+  },
+  {
+    "id": 166,
+    "name": "15 Cm Red Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 65.0,
+    "icon": "✨"
+  },
+  {
+    "id": 167,
+    "name": "30 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 49.0,
+    "icon": "✨"
+  },
+  {
+    "id": 168,
+    "name": "30 Cm Color Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 53.0,
+    "icon": "✨"
+  },
+  {
+    "id": 169,
+    "name": "30 Cm Green Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 57.0,
+    "icon": "✨"
+  },
+  {
+    "id": 170,
+    "name": "30 Cm Red Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 65.0,
+    "icon": "✨"
+  },
+  {
+    "id": 171,
+    "name": "50 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 165.0,
+    "icon": "✨"
+  },
+  {
+    "id": 172,
+    "name": "75 Cm Electric Sparklers",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 225.0,
+    "icon": "✨"
+  },
+  {
+    "id": 173,
+    "name": "Rotating Sparklers(30 cm)",
+    "category": "sparkler",
+    "categoryLabel": "Sparklers",
+    "content": "1 Box",
+    "price": 245.0,
+    "icon": "✨"
+  },
+  {
+    "id": 174,
+    "name": "Baby Matches",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 15.0,
+    "icon": "💥"
+  },
+  {
+    "id": 175,
+    "name": "Super Kings (10 in 1)",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 63.0,
+    "icon": "💥"
+  },
+  {
+    "id": 176,
+    "name": "Super Deluxe 10 in 1",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 71.0,
+    "icon": "💥"
+  },
+  {
+    "id": 177,
+    "name": "7 Up Rainbow",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 135.0,
+    "icon": "💥"
+  },
+  {
+    "id": 178,
+    "name": "Classic 5 in 1",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 120.0,
+    "icon": "💥"
+  },
+  {
+    "id": 179,
+    "name": "VIP Matches",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 225.0,
+    "icon": "💥"
   }
   ];
