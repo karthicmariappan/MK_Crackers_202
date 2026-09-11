@@ -1609,5 +1609,212 @@ window.PRODUCTS = [
     "content": "1 Box",
     "price": 225.0,
     "icon": "💥"
+  },
+  {
+    "id": 180,
+    "name": "Snake serpent Egg (Sony) (50 Pcs)",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 43.0,
+    "icon": "💥"
+  },
+  {
+    "id": 181,
+    "name": "Anaconda",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 75.0,
+    "icon": "💥"
+  },
+  {
+    "id": 182,
+    "name": "Roll Cap",
+    "category": "matches",
+    "categoryLabel": "Color Matches",
+    "content": "1 Box",
+    "price": 81.0,
+    "icon": "💥"
+  },
+  {
+    "id": 183,
+    "name": "30 Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 405.0,
+    "icon": "🎇"
+  },
+  {
+    "id": 184,
+    "name": "60Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 805.0,
+    "icon": "🎇"
+  },
+  {
+    "id": 185,
+    "name": "120 Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 1605.0,
+    "icon": "🎇"
+  },
+  {
+    "id": 186,
+    "name": "240 Shot",
+    "category": "repeating",
+    "categoryLabel": "Shots",
+    "content": "1 Box",
+    "price": 3205.0,
+    "icon": "🎇"
+  },
+  {
+    "id": 187,
+    "name": "28 Chorsa",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 20.0,
+    "icon": "💥"
+  },
+  {
+    "id": 188,
+    "name": "28 Gaint",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 26.0,
+    "icon": "💥"
+  },
+  {
+    "id": 189,
+    "name": "56 Gaint",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 45.0,
+    "icon": "💥"
+  },
+  {
+    "id": 190,
+    "name": "100 Wala",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 45.0,
+    "icon": "💥"
+  },
+  {
+    "id": 191,
+    "name": "100 Wala Gaint",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 185.0,
+    "icon": "💥"
+  },
+  {
+    "id": 192,
+    "name": "100 Wala Mega Deluxe",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Pkt",
+    "price": 225.0,
+    "icon": "💥"
+  },
+  {
+    "id": 193,
+    "name": "1000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 185.0,
+    "icon": "💥"
+  },
+  {
+    "id": 194,
+    "name": "2000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 365.0,
+    "icon": "💥"
+  },
+  {
+    "id": 195,
+    "name": "5000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 905.0,
+    "icon": "💥"
+  },
+  {
+    "id": 196,
+    "name": "10000 Wala (Half)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 1805.0,
+    "icon": "💥"
+  },
+  {
+    "id": 197,
+    "name": "1000 Wala (Full)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 365.0,
+    "icon": "💥"
+  },
+  {
+    "id": 198,
+    "name": "5000 Wala (Full)",
+    "category": "wala",
+    "categoryLabel": "Wala",
+    "content": "1 Box",
+    "price": 1805.0,
+    "icon": "💥"
+  }
+  {
+    "id": 199,
+    "name": "Yuvi 21 items",
+    "category": "gift",
+    "categoryLabel": "Gift Boxes",
+    "content": "21items",
+    "price": 350.0,
+    "icon": "🎁"
+  },
+  {
+    "id": 200,
+    "name": "Sachin 31 items",
+    "category": "gift",
+    "categoryLabel": "Gift Boxes",
+    "content": "31items",
+    "price": 450.0,
+    "icon": "🎁"
+  },
+  {
+    "id": 201,
+    "name": "Kohli 40 items",
+    "category": "gift",
+    "categoryLabel": "Gift Boxes",
+    "content": "40items",
+    "price": 600.0,
+    "icon": "🎁"
+  },
+  {
+    "id": 202,
+    "name": "Dhoni 51 items",
+    "category": "gift",
+    "categoryLabel": "Gift Boxes",
+    "content": "51items",
+    "price": 900.0,
+    "icon": "🎁"
   }
   ];
