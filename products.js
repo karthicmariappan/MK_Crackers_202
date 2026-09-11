@@ -1805,7 +1805,7 @@ window.PRODUCTS = [
     "category": "gift",
     "categoryLabel": "Gift Boxes",
     "content": "40items",
-    "price": 600.0,
+    "price": 650.0,
     "icon": "🎁"
   },
   {
