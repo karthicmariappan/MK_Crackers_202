@@ -1781,40 +1781,4 @@ window.PRODUCTS = [
     "price": 1805.0,
     "icon": "💥"
   }
-  {
-    "id": 199,
-    "name": "Yuvi 21 items",
-    "category": "gift",
-    "categoryLabel": "Gift Boxes",
-    "content": "21items",
-    "price": 350.0,
-    "icon": "🎁"
-  },
-  {
-    "id": 200,
-    "name": "Sachin 31 items",
-    "category": "gift",
-    "categoryLabel": "Gift Boxes",
-    "content": "31items",
-    "price": 450.0,
-    "icon": "🎁"
-  },
-  {
-    "id": 201,
-    "name": "Kohli 40 items",
-    "category": "gift",
-    "categoryLabel": "Gift Boxes",
-    "content": "40items",
-    "price": 600.0,
-    "icon": "🎁"
-  },
-  {
-    "id": 202,
-    "name": "Dhoni 51 items",
-    "category": "gift",
-    "categoryLabel": "Gift Boxes",
-    "content": "51items",
-    "price": 900.0,
-    "icon": "🎁"
-  }
   ];
