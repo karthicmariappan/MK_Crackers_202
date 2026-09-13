@@ -8,14 +8,43 @@
 .gift-page{padding:45px 0 90px;background:linear-gradient(180deg,#fffaf7,#fff);min-height:calc(100vh - 110px)}
 .back{display:inline-block;margin-bottom:18px;color:#9d1118;font-weight:900}
 .gift-title{text-align:center;margin-bottom:28px}.gift-title .eyebrow{color:#b5121b;font-size:11px;font-weight:1000;letter-spacing:2px}.gift-title h1{font-size:38px;margin:8px 0}.gift-title p{color:#756b71;margin:0}
-.gift-boxes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
+.gift-boxes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
 .box{background:#fff;border:1px solid #eadedf;border-radius:18px;padding:15px;box-shadow:0 8px 25px #0000000b;transition:.2s;overflow:hidden}
 .box:hover{transform:translateY(-6px);border-color:#d6a323;box-shadow:0 15px 35px #8d171722}
 .box-art{height:155px;border-radius:13px;background:linear-gradient(135deg,#fff0bd,#fffaf0);display:grid;place-items:center;font-size:75px}
-.box small{display:block;color:#9c710e;font-weight:900;letter-spacing:1.4px;margin-top:13px}.box h2{font-size:20px;margin:6px 0}.box p{color:#746a70;font-size:12px;min-height:30px}.box-price{font-size:23px;color:#b5121b;font-weight:1000;margin:10px 0}.box button{width:100%;padding:12px;border:0;border-radius:8px;background:#b5121b;color:#fff;font-weight:1000;cursor:pointer}.box button:hover{background:#82080e}
+.box small{display:block;color:#9c710e;font-weight:900;letter-spacing:1.4px;margin-top:13px}.box h2{font-size:20px;margin:6px 0}.box p{color:#746a70;font-size:12px;min-height:30px}.box-price{font-size:23px;color:#b5121b;font-weight:1000;margin:10px 0}.box-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}.box button{width:100%;padding:12px;border:0;border-radius:8px;background:#b5121b;color:#fff;font-weight:1000;cursor:pointer}.box button:hover{background:#82080e}.box .view-btn{background:#fff;border:2px solid #b5121b;color:#b5121b}.box .view-btn:hover{background:#fff5f5}.items-modal{display:none;position:fixed;inset:0;background:rgba(20,10,10,.62);z-index:9999;align-items:center;justify-content:center;padding:18px}.items-modal.show{display:flex}.items-dialog{width:min(620px,100%);max-height:88vh;background:#fff;border-radius:18px;box-shadow:0 25px 70px rgba(0,0,0,.3);overflow:hidden}.items-dialog-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 20px;background:linear-gradient(135deg,#fff4cf,#fff);border-bottom:1px solid #eadedf}.items-dialog-head h2{margin:0;color:#7c0c13}.items-dialog-head p{margin:4px 0 0;color:#756b71;font-size:13px}.items-close{border:0;background:#7c0c13;color:#fff;width:36px;height:36px;border-radius:50%;font-size:22px;cursor:pointer}.items-list{padding:16px 20px;max-height:58vh;overflow:auto}.gift-item{display:grid;grid-template-columns:38px 1fr auto;gap:10px;align-items:center;padding:11px 0;border-bottom:1px solid #eee}.gift-item:last-child{border-bottom:0}.gift-no{font-weight:900;color:#9c710e}.gift-item-name{font-weight:800;color:#241719}.gift-item-content{font-size:11px;color:#81777d;margin-top:2px}.gift-item-price{font-weight:900;color:#b5121b}.items-dialog-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;border-top:1px solid #eadedf}.items-dialog-foot strong{font-size:21px;color:#b5121b}.items-add{border:0;border-radius:8px;background:#b5121b;color:#fff;padding:11px 16px;font-weight:1000;cursor:pointer}@media(max-width:650px){.box-actions{grid-template-columns:1fr}.items-dialog{max-height:92vh}.items-list{max-height:62vh}.gift-item{grid-template-columns:30px 1fr auto}.items-dialog-head,.items-dialog-foot{padding:14px}.items-list{padding:12px 14px}}
 .list-view{display:none;margin-top:35px}.list-view.show{display:block}.list-head{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:16px}.list-head h2{margin:5px 0;color:#7c0c13}.list-head p{color:#756b71}.box-crackers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.cracker{background:#fff;border:1px solid #eadfe0;border-radius:12px;padding:14px;display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}.cracker h3{font-size:14px;margin:0}.cracker p{font-size:11px;color:#81777d;margin:4px 0}.cracker strong{color:#b5121b}.cracker button{grid-column:1/-1;border:0;border-radius:7px;background:#b5121b;color:#fff;padding:9px;font-weight:900;cursor:pointer}
 .selection-bar{position:sticky;bottom:12px;margin-top:22px;background:#231719;color:#fff;padding:12px 16px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 10px 30px #0005}.selection-bar a{background:#f5b400;color:#1d1300;padding:9px 14px;border-radius:7px;font-weight:1000}
 @media(max-width:1050px){.gift-boxes{grid-template-columns:repeat(3,1fr)}}@media(max-width:650px){.gift-boxes,.box-crackers{grid-template-columns:1fr}.list-head{align-items:flex-start;flex-direction:column}.gift-title h1{font-size:30px}}
+</style>
+
+<style>
+.box-art{position:relative;overflow:hidden;cursor:pointer}
+.box-art.has-image{padding:0;background:#fff8e7}
+.gift-thumb{width:100%;height:100%;object-fit:contain;display:block;transition:transform .25s ease}
+.box-art.has-image:hover .gift-thumb{transform:scale(1.04)}
+.gift-emoji{line-height:1}
+.items-dialog-wide{width:min(1040px,100%)}
+.items-body{display:grid;grid-template-columns:330px minmax(0,1fr);gap:0;min-height:360px}
+.items-preview-panel{background:#fffaf0;border-right:1px solid #eadedf;padding:18px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:10px}
+.items-preview-panel span{font-size:11px;color:#756b71;text-align:center}
+.preview-image-btn{border:1px solid #eadedf;background:#fff;border-radius:12px;padding:8px;cursor:pointer;width:100%;height:340px;box-shadow:0 5px 18px #0000000b}
+.preview-image-btn img{width:100%;height:100%;object-fit:contain;display:block}
+.preview-placeholder{height:340px;width:100%;display:grid;place-items:center;font-size:90px;background:linear-gradient(135deg,#fff0bd,#fffaf0);border-radius:12px}
+.image-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:10050;align-items:center;justify-content:center;padding:30px}
+.image-modal.show{display:flex}
+.image-modal img{max-width:min(92vw,900px);max-height:88vh;width:auto;height:auto;object-fit:contain;border-radius:10px;box-shadow:0 20px 70px #0009;background:#fff}
+.image-modal-close{position:absolute;right:22px;top:18px;width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#7c0c13;font-size:30px;line-height:1;cursor:pointer;font-weight:900;z-index:2}
+.image-modal-caption{position:absolute;bottom:15px;left:0;right:0;text-align:center;color:#fff;font-weight:900;font-size:14px}
+@media(max-width:760px){
+  .items-dialog-wide{width:100%;max-height:94vh}
+  .items-body{grid-template-columns:1fr;max-height:68vh;overflow:auto}
+  .items-preview-panel{border-right:0;border-bottom:1px solid #eadedf;padding:12px}
+  .preview-image-btn,.preview-placeholder{height:210px}
+  .items-list{max-height:none;overflow:visible}
+  .image-modal{padding:16px}
+  .image-modal img{max-width:96vw;max-height:82vh}
+}
 </style>
 </head>
 <body>
@@ -27,8 +56,25 @@
 
 <section class="gift-page"><div class="container">
 <a class="back" href="index.html">← Back to MK Crackers</a>
-<div class="gift-title"><div class="eyebrow">🎁 SPECIAL GIFT BOX COLLECTION</div><h1>Choose Your Gift Box</h1><p>Select one of our five special gift boxes and add it directly to your enquiry cart.</p></div>
+<div class="gift-title"><div class="eyebrow">🎁 SPECIAL GIFT BOX COLLECTION</div><h1>Choose Your Gift Box</h1><p>Select one of our special gift boxes and add it directly to your enquiry cart.</p></div>
 <div id="giftBoxes" class="gift-boxes"></div>
+
+<div id="imageModal" class="image-modal" role="dialog" aria-modal="true" aria-label="Gift box image preview">
+  <button class="image-modal-close" id="imageModalClose" type="button" aria-label="Close image">×</button>
+  <img id="imageModalImg" src="" alt="Gift Box full size preview">
+  <div class="image-modal-caption" id="imageModalCaption"></div>
+</div>
+
+<div id="itemsModal" class="items-modal" role="dialog" aria-modal="true" aria-labelledby="itemsModalTitle">
+  <div class="items-dialog items-dialog-wide">
+    <div class="items-dialog-head">
+      <div><h2 id="itemsModalTitle">Gift Box Items</h2><p id="itemsModalSub">Included items</p></div>
+      <button class="items-close" id="itemsClose" type="button" aria-label="Close">×</button>
+    </div>
+    <div class="items-body"><div class="items-preview-panel" id="itemsPreviewPanel"></div><div class="items-list"><div class="gift-items-heading"><span>S.No</span><span>Contents</span><span>Qty</span></div><div id="itemsList"></div></div></div>
+    <div class="items-dialog-foot"><strong id="itemsModalPrice">₹0.00</strong><button class="items-add" id="itemsModalAdd" type="button">Add Gift Box to Cart →</button></div>
+  </div>
+</div>
 
 <div id="listView" class="list-view">
 <div class="list-head"><div><span id="selectedLabel" class="badge"></span><h2 id="selectedTitle"></h2><p>Browse the crackers in this selection and add anything you want.</p></div><button id="backBoxes" type="button">← Gift Boxes</button></div>
@@ -39,12 +85,8 @@
 
 <script src="products.js"></script>
 <script>
-const BOXES=[
- {id:"yuvi",name:"Yuvi",items:21,price:350},
- {id:"rohit",name:"Rohit",items:31,price:450},
- {id:"kohli",name:"Kohli",items:40,price:600},
- {id:"dhoni",name:"Dhoni",items:51,price:900}
-];
+const BOXES=[{id:'jallikattu',name:'Jallikattu Gift Box',items:21,price:300,image:'assets/jallikattu-gift-box.jpg',contents:[{name:'7 cm Electric Sparklers',qty:'1 Box'},{name:'7 cm Colour Sparklers',qty:'1 Box'},{name:'10 cm Electric Sparklers',qty:'1 Box'},{name:'1½” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'Flower Pots Small (5 Pcs)',qty:'1 Box'},{name:'Ground Chakkar Big (5 Pcs)',qty:'1 Box'},{name:'Bullet Bomb (5 Pcs)',qty:'1 Box'},{name:'2¾” Kuruvi Crackers',qty:'1 Pkt'},{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'Red Bijli Crackers',qty:'1 Pkt'},{name:'Electric Stone',qty:'1 Box'},{name:'Butterfly',qty:'1 Pce'},{name:'Photo Flash',qty:'1 Pce'},{name:'Kit Kat',qty:'1 Box'},{name:'Snake Cartoon',qty:'1 Pce'},{name:'Color Wheel',qty:'1 Pce'},{name:'3” Pops Shower',qty:'1 Pce'},{name:'Zee Boom Baa',qty:'1 Box'},{name:'Assorted Cartoons',qty:'1 Box'},{name:'Asrafi Small',qty:'1 Pce'},{name:'Military Bomb',qty:'1 Pce'}]},{id:'kungfupanda',name:'Kungfupanda Gift Box',items:26,price:350,image:'assets/kungfupanda-gift-box.jpg',contents:[{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'2¾” Kuruvi Crackers',qty:'1 Pkt'},{name:'Red Bijili Crackers',qty:'1 Pkt'},{name:'Ganga Jamuna',qty:'1 Pce'},{name:'Flower Pots Small (5 Pcs)',qty:'1 Box'},{name:'Ground Chakkar Big (5 Pcs)',qty:'1 Box'},{name:'1½” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'7 cm Electric Crackers',qty:'1 Box'},{name:'7 cm Colour Crackers',qty:'1 Box'},{name:'16 Bijili Crackers',qty:'1 Bag'},{name:'3” Pops Shower',qty:'1 Pce'},{name:'Butterfly',qty:'1 Pce'},{name:'Photo Flash',qty:'1 Pce'},{name:'Asrafi Big',qty:'1 Box'},{name:'Electric Stone',qty:'1 Box'},{name:'Zee Boom Baa',qty:'1 Box'},{name:'Assorted Cartoon (5 Pcs)',qty:'1 Box'},{name:'Sky Shot Crackling',qty:'1 Pce'},{name:'Snake Cartoon',qty:'1 Pce'},{name:'Bambaram',qty:'1 Pce'},{name:'Dancing Wheel',qty:'1 Pce'},{name:'7 cm Green Sparklers',qty:'1 Box'},{name:'2¾” Bird Crackers',qty:'1 Pkt'},{name:'Stripped Bijili',qty:'1 Bag'},{name:'Snake Tablet',qty:'1 Box'},{name:'555 Bomb',qty:'1 Pce'}]},{id:'festival',name:'Festival Gift Box',items:36,price:480,image:'assets/festival-gift-box.jpg',contents:[{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'2¾” Kuruvi Crackers',qty:'1 Pkt'},{name:'Red Bijili Crackers',qty:'1 Pkt'},{name:'Ganga Jamuna',qty:'1 Pce'},{name:'Flower Pots Small (5 Pcs)',qty:'1 Box'},{name:'Ground Chakkar Big (5 Pcs)',qty:'1 Box'},{name:'1½” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'7 cm Electric Crackers',qty:'1 Box'},{name:'7 cm Colour Crackers',qty:'1 Box'},{name:'16 Bijili Crackers',qty:'1 Bag'},{name:'3” Pops Shower',qty:'1 Pce'},{name:'Butterfly',qty:'1 Pce'},{name:'Photo Flash',qty:'1 Pce'},{name:'Asrafi Big',qty:'1 Box'},{name:'Electric Stone',qty:'1 Box'},{name:'Zee Boom Baa',qty:'1 Box'},{name:'Assorted Cartoon (5 Pcs)',qty:'1 Box'},{name:'Sky Shot Crackling',qty:'1 Pce'},{name:'Snake Cartoon',qty:'1 Pce'},{name:'Bambaram',qty:'1 Pce'},{name:'Dancing Wheel',qty:'1 Pce'},{name:'7 cm Green Sparklers',qty:'1 Box'},{name:'2¾” Bird Crackers',qty:'1 Pkt'},{name:'Stripped Bijili',qty:'1 Bag'},{name:'Snake Tablet',qty:'1 Box'},{name:'555 Bomb',qty:'1 Pce'},{name:'Classic Bomb',qty:'1 Pce'},{name:'Bullet / Kit Kat (5 Pcs)',qty:'1 Box'},{name:'Military Bomb',qty:'1 Pce'},{name:'28 Chorsa',qty:'1 Pkt'},{name:'Roll Cap',qty:'1 Roll'},{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'7 Shot Colour',qty:'1 Pce'},{name:'10 cm Colour Sparklers',qty:'1 Box'},{name:'Magic Pop',qty:'1 Box'},{name:'Selfie Stick',qty:'1 Pce'}]},{id:'dandiya',name:'Dandiya Gift Box',items:41,price:600,image:'assets/dandiya-gift-box.jpg',contents:[{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'2¾” Kuruvi Crackers',qty:'1 Pkt'},{name:'Red Bijili Crackers',qty:'1 Pkt'},{name:'Ganga Jamuna',qty:'1 Pce'},{name:'Flower Pots Small (5 Pcs)',qty:'1 Box'},{name:'Ground Chakkar Big (5 Pcs)',qty:'1 Box'},{name:'1½” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'7 cm Electric Crackers',qty:'1 Box'},{name:'7 cm Colour Crackers',qty:'1 Box'},{name:'16 Bijili Crackers',qty:'1 Bag'},{name:'3” Pops Shower',qty:'1 Pce'},{name:'Butterfly',qty:'1 Pce'},{name:'Photo Flash',qty:'1 Pce'},{name:'Asrafi Big',qty:'1 Box'},{name:'Electric Stone',qty:'1 Box'},{name:'Zee Boom Baa',qty:'1 Box'},{name:'Assorted Cartoon (5 Pcs)',qty:'1 Box'},{name:'Sky Shot Crackling',qty:'1 Pce'},{name:'Snake Cartoon',qty:'1 Pce'},{name:'Bambaram',qty:'1 Pce'},{name:'Dancing Wheel',qty:'1 Pce'},{name:'7 cm Green Sparklers',qty:'1 Box'},{name:'2¾” Bird Crackers',qty:'1 Pkt'},{name:'Stripped Bijili',qty:'1 Bag'},{name:'Snake Tablet',qty:'1 Box'},{name:'555 Bomb',qty:'1 Pce'},{name:'Classic Bomb',qty:'1 Pce'},{name:'Bullet / Kit Kat (5 Pcs)',qty:'1 Box'},{name:'Military Bomb',qty:'1 Pce'},{name:'28 Chorsa',qty:'1 Pkt'},{name:'Roll Cap',qty:'1 Roll'},{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'7 Shot Colour',qty:'1 Pce'},{name:'10 cm Colour Sparklers',qty:'1 Box'},{name:'Magic Pop',qty:'1 Box'},{name:'Selfie Stick',qty:'1 Pce'},{name:'Digital Bomb',qty:'1 Pce'},{name:'10 cm Electric Sparklers',qty:'1 Box'},{name:'Battery Shower',qty:'1 Pce'},{name:'Adiyal',qty:'1 Pce'},{name:'4” Lakshmi Crackers',qty:'1 Pkt'}]},{id:'meenakshi',name:'Meenakshi Gift Box',items:51,price:750,image:'assets/meenakshi-gift-box.jpg',contents:[{name:'7 cm Electric Sparklers',qty:'1 Box'},{name:'7 cm Colour Sparklers',qty:'1 Box'},{name:'10 cm Electric Sparklers',qty:'1 Box'},{name:'1½” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'Flower Pots Small (5 Pcs)',qty:'1 Box'},{name:'Ground Chakkar Big (5 Pcs)',qty:'1 Box'},{name:'Bullet Bomb (5 Pcs)',qty:'1 Box'},{name:'2¾” Kuruvi Crackers',qty:'1 Pkt'},{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'Red Bijili Crackers',qty:'1 Pkt'},{name:'Electric Stone',qty:'1 Box'},{name:'Butterfly',qty:'1 Pce'},{name:'Photo Flash',qty:'1 Pce'},{name:'Kit Kat',qty:'1 Box'},{name:'Snake Cartoon',qty:'1 Pce'},{name:'Color Wheel',qty:'1 Pce'},{name:'3” Pops Shower',qty:'1 Pce'},{name:'Zee Boom Baa',qty:'1 Box'},{name:'Assorted Cartoons',qty:'1 Box'},{name:'Asrafi Small',qty:'1 Pce'},{name:'Military Bomb',qty:'1 Pce'},{name:'28 Chorsa',qty:'1 Pkt'},{name:'Asrafi Big',qty:'1 Box'},{name:'Roll Cap',qty:'1 Roll'},{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'2¾” Kuruvi Crackers',qty:'1 Pkt'},{name:'Stripped Bijili Crackers',qty:'1 Bag'},{name:'10 cm Electric Sparklers',qty:'1 Box'},{name:'Asrafi Big',qty:'1 Box'},{name:'4” Lakshmi Crackers',qty:'1 Pkt'},{name:'6” Rope Crackers',qty:'1 Pce'},{name:'5” Spitfire Crackers',qty:'1 Pce'},{name:'5 Shot Colour',qty:'1 Pce'},{name:'1 Shot Colour',qty:'1 Pce'},{name:'Baby Rocket (5 Pcs)',qty:'1 Box'},{name:'Battery Shower',qty:'1 Pce'},{name:'Sky Shot Crackling',qty:'1 Pce'},{name:'Bambaram',qty:'1 Pce'},{name:'Tom Sound Crackers',qty:'1 Pce'},{name:'Dancing Wheel',qty:'1 Pce'},{name:'Spinner',qty:'1 Pce'},{name:'Hydro Bomb (5 Pcs)',qty:'1 Box'},{name:'555 Bomb',qty:'1 Pce'},{name:'7 cm Electric Sparklers',qty:'1 Box'},{name:'28 Giant',qty:'1 Pkt'},{name:'4” Gokul Bomb',qty:'1 Pce'},{name:'4” Deluxe Gold Lakshmi Crackers',qty:'1 Pkt'},{name:'Bullet / Kit Kat (5 Pcs)',qty:'1 Box'},{name:'4” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'Penta Fancy',qty:'1 Pce'},{name:'Digital Bomb',qty:'1 Pce'}]},{id:'kinglion',name:'King Lion Gift Box',items:60,price:1000,image:'assets/king-lion-gift-box.jpg',contents:[{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'2¾” Kuruvi Crackers',qty:'1 Pkt'},{name:'Red Bijili Crackers',qty:'1 Pkt'},{name:'Ganga Jamuna',qty:'1 Pce'},{name:'Flower Pots Small (5 Pcs)',qty:'1 Box'},{name:'Ground Chakkar Big (5 Pcs)',qty:'1 Box'},{name:'1½” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'7 cm Electric Crackers',qty:'1 Box'},{name:'7 cm Colour Crackers',qty:'1 Box'},{name:'16 Bijili Crackers',qty:'1 Bag'},{name:'3” Pops Shower',qty:'1 Pce'},{name:'Butterfly',qty:'1 Pce'},{name:'Photo Flash',qty:'1 Pce'},{name:'Asrafi Big',qty:'1 Box'},{name:'Electric Stone',qty:'1 Box'},{name:'Zee Boom Baa',qty:'1 Box'},{name:'Assorted Cartoon (5 Pcs)',qty:'1 Box'},{name:'Sky Shot Crackling',qty:'1 Pce'},{name:'Snake Cartoon',qty:'1 Pce'},{name:'Bambaram',qty:'1 Pce'},{name:'Dancing Wheel',qty:'1 Pce'},{name:'7 cm Green Sparklers',qty:'1 Box'},{name:'2¾” Bird Crackers',qty:'1 Pkt'},{name:'Stripped Bijili',qty:'1 Bag'},{name:'Snake Tablet',qty:'1 Box'},{name:'555 Bomb',qty:'1 Pce'},{name:'Classic Bomb',qty:'1 Pce'},{name:'Bullet / Kit Kat (5 Pcs)',qty:'1 Box'},{name:'Military Bomb',qty:'1 Pce'},{name:'28 Chorsa',qty:'1 Pkt'},{name:'Roll Cap',qty:'1 Roll'},{name:'3½” Lakshmi Crackers',qty:'1 Pkt'},{name:'7 Shot Colour',qty:'1 Pce'},{name:'10 cm Colour Sparklers',qty:'1 Box'},{name:'Magic Pop',qty:'1 Box'},{name:'Selfie Stick',qty:'1 Pce'},{name:'Digital Bomb',qty:'1 Pce'},{name:'10 cm Electric Sparklers',qty:'1 Box'},{name:'Battery Shower',qty:'1 Pce'},{name:'Adiyal',qty:'1 Pce'},{name:'4” Lakshmi Crackers',qty:'1 Pkt'},{name:'Ground Chakkar Special (5 Pcs)',qty:'1 Box'},{name:'Jallikattu (25 Paper Bomb)',qty:'1 Pkt'},{name:'100 Bijili Crackers',qty:'1 Bag'},{name:'4” Lakshmi Crackers',qty:'1 Pkt'},{name:'Money Bank',qty:'1 Pce'},{name:'20 Deluxe Crackers',qty:'1 Pkt'},{name:'Baby Rocket (5 Pcs)',qty:'1 Box'},{name:'Smoke',qty:'1 Pce'},{name:'28 Giant',qty:'1 Pkt'},{name:'10 Wala Crackers',qty:'1 Pce'},{name:'2” Fancy Pipe Crackers',qty:'1 Pce'},{name:'4” Deluxe Lakshmi Crackers',qty:'1 Pkt'},{name:'Flower Pots Big (5 Pcs)',qty:'1 Box'},{name:'4” Twinkling Star (5 Pcs)',qty:'1 Box'},{name:'7 cm Red Sparklers',qty:'1 Box'},{name:'Chotta / Penta Fancy Crackers',qty:'1 Pkt'},{name:'Giant Crackers (10 Pcs)',qty:'1 Pkt'},{name:'24 Deluxe Crackers',qty:'1 Pkt'},{name:'12 cm Electric Sparklers',qty:'1 Box'}]}];
+
 const products=Array.isArray(window.PRODUCTS)?window.PRODUCTS:[];
 let cart=JSON.parse(localStorage.getItem("mkCart")||"[]");
 const $=s=>document.querySelector(s);
@@ -57,23 +99,49 @@ function addProduct(p){let x=cart.find(i=>String(i.id)===String(p.id));if(x)x.qt
 function showBox(id){
  const b=BOXES.find(x=>x.id===id); if(!b)return;
  $("#listView").classList.add("show");$("#selectedLabel").textContent=b.items+" ITEMS • ₹"+b.price;$("#selectedTitle").textContent=b.name+" Gift Box";
- // Show a useful selection from the complete product list. If exact 21/30/etc pack contents are supplied later, they can replace this mapping.
- const list=products.slice(0,Math.min(b.items,products.length));
- $("#boxCrackers").innerHTML=list.map(p=>`<div class="cracker"><div><h3>${esc(p.name)}</h3><p>${esc(p.content||"Pack")} • ₹${money(p.price)}</p></div><strong>₹${money(p.price)}</strong><button type="button" data-add="${p.id}">Add to Cart</button></div>`).join("");
+ const list=b.contents||[];
+ $("#boxCrackers").innerHTML=list.length ? list.map((p,i)=>`<div class="cracker"><div><h3>${i+1}. ${esc(p.name)}</h3><p>Quantity: ${esc(p.qty)}</p></div><span></span><span>${esc(p.qty)}</span></div>`).join("") : `<div class="cracker"><div><h3>Contents will be updated soon</h3><p>The exact contents for this gift box have not been provided yet.</p></div></div>`;
  window.scrollTo({top:$("#listView").offsetTop-20,behavior:"smooth"});
 }
+let activeBox=null;
+function openItems(box){
+  activeBox=box;
+  const list=box.contents||[];
+  $("#itemsModalTitle").textContent=box.name+" Gift Box ("+box.items+" Items)";
+  $("#itemsModalSub").textContent=box.items+" items • ₹"+money(box.price)+" • Included contents";
+  $("#itemsModalPrice").textContent="₹"+money(box.price);
+  $("#itemsPreviewPanel").innerHTML=box.image?`<button class="preview-image-btn" type="button" data-full-image="${esc(box.image)}" data-caption="${esc(box.name)} Gift Box"><img src="${esc(box.image)}" alt="${esc(box.name)} Gift Box"></button><span>Click image to view full size</span>`:`<div class="preview-placeholder">🎁</div><span>Gift box image</span>`;
+  $("#itemsList").innerHTML=list.length?list.map((p,i)=>`<div class="gift-item"><span class="gift-no">${i+1}</span><div><div class="gift-item-name">${esc(p.name)}</div></div><span class="gift-item-price">${esc(p.qty)}</span></div>`).join(""):`<div class="gift-item"><div></div><div><div class="gift-item-name">Item list not added yet.</div><div class="gift-item-content">The exact contents for this gift box will be added here.</div></div><div></div></div>`;
+  $("#itemsModal").classList.add("show");
+  document.body.style.overflow="hidden";
+}
+function closeItems(){ $("#itemsModal").classList.remove("show"); document.body.style.overflow=""; activeBox=null; }
 function render(){
  $("#giftBoxes").innerHTML=BOXES.map(b=>`<article class="box">
-   <div class="box-art">🎁</div><small>${b.items} ITEMS</small><h2>${b.name} Gift Box</h2>
+   <div class="box-art has-image" data-image="${b.id}"><img src="${esc(b.image)}" alt="${esc(b.name)} Gift Box" class="gift-thumb" loading="lazy"></div><small>${b.items} ITEMS</small><h2>${b.name} Gift Box</h2>
    <p>Special celebration gift box with ${b.items} items.</p><div class="box-price">₹${money(b.price)}</div>
-   <button type="button" data-open="${b.id}">Add Gift Box to Cart →</button>
+   <div class="box-actions"><button class="view-btn" type="button" data-view="${b.id}">View ${b.items} Items</button><button type="button" data-open="${b.id}">Add to Cart →</button></div>
  </article>`).join("");
  updateNav();
 }
-$("#giftBoxes").addEventListener("click",e=>{const id=e.target.dataset.open;if(id){const b=BOXES.find(x=>x.id===id);addGift(b)}});
+$("#giftBoxes").addEventListener("click",e=>{
+ const view=e.target.dataset.view; if(view){const b=BOXES.find(x=>x.id===view);if(b)openItems(b);return;}
+ const id=e.target.dataset.open;if(id){const b=BOXES.find(x=>x.id===id);if(b)addGift(b)}
+});
+$("#itemsClose").onclick=closeItems;
+$("#itemsModal").addEventListener("click",e=>{if(e.target.id==="itemsModal")closeItems()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeItems()});
+$("#itemsModalAdd").onclick=()=>{if(activeBox){addGift(activeBox);closeItems()}};
+const imageModal=$("#imageModal"), imageModalImg=$("#imageModalImg"), imageModalCaption=$("#imageModalCaption");
+function openImage(src,caption){imageModalImg.src=src;imageModalCaption.textContent=caption||"";imageModal.classList.add("show");document.body.style.overflow="hidden"}
+function closeImage(){imageModal.classList.remove("show");imageModalImg.src="";document.body.style.overflow=activeBox?"hidden":""}
+$("#imageModalClose").onclick=closeImage;
+imageModal.addEventListener("click",e=>{if(e.target===imageModal)closeImage()});
+$("#giftBoxes").addEventListener("click",e=>{const imgBtn=e.target.closest(".gift-thumb");if(imgBtn){const b=BOXES.find(x=>x.id===imgBtn.closest(".box")?.querySelector("[data-image]")?.dataset.image);if(b)openImage(b.image,b.name+" Gift Box");}});
+$("#itemsPreviewPanel").addEventListener("click",e=>{const btn=e.target.closest("[data-full-image]");if(btn)openImage(btn.dataset.fullImage,btn.dataset.caption)});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeImage();if(!imageModal.classList.contains("show"))closeItems()}});
 $("#boxCrackers").addEventListener("click",e=>{const id=e.target.dataset.add;if(id){const p=products.find(x=>String(x.id)===String(id));if(p)addProduct(p)}});
 $("#backBoxes").onclick=()=>$("#listView").classList.remove("show");
-$("#menuBtn").onclick=()=>document.querySelector("nav").classList.toggle("show");
 render();
 const hash=(location.hash||"").replace("#","");
 if(hash&&BOXES.some(b=>b.id===hash))setTimeout(()=>showBox(hash),150);
